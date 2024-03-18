@@ -7,7 +7,7 @@ if img is None:
     sys.exit('파일을 찾을 수 없습니다.')
 
 BrushSiz=5					# 붓의 크기
-LColor,RColor=(255,0,0),(0,0,255)		# 파란색과 빨간색
+LColor,RColor=(255,0,0),(0,0,255)		# 파란색과 빨++++++++++++++++++++++++++++++++++간색
 
 def painting(event,x,y,flags,param):
     if event==cv.EVENT_LBUTTONDOWN:   
